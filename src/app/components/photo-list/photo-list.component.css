@@ -1,0 +1,17 @@
+.card-photo {
+  cursor: pointer;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.card-photo:hover {
+  border: 1px solid #222;
+  box-shadow: 0 0 10px rgba(0, 30, 0, .2),
+              0 0 20px rgba(0, 30, 0, .5),
+              0 0 40px rgba(0, 30, 0, .8),
+              0 0 60px rgba(0, 30, 0, 1);
+}
+
+img:hover {
+  transform: scale(1.15);
+}
